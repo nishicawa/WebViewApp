@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *home;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *forward;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *reload;
 
 @end
